@@ -4,29 +4,37 @@ A configurable password generator built on 14 May 2019 by ThatMattG.
 Usage: main.py
 
 	[--batch_size BATCH_SIZE]
-		(how many passwords?)
+	(how many passwords?)
 
 	[--length LENGTH]
-		(how long is each?)
+	(how long is each?)
 
 	[--min_word_length MIN_WORD_LENGTH]
-		(shortest words)
+	(shortest words)
 
-	[--max_word_length MAX_WORD_LENGTH]						(longest words)
+	[--max_word_length MAX_WORD_LENGTH]
+	(longest words)
 
-	[--letters_to_numbers LETTERS_TO_NUMBERS]				(e.g. replace o with 0)
+	[--letters_to_numbers LETTERS_TO_NUMBERS]
+	(e.g. replace o with 0)
 
-	[--letters_to_special_chars LETTERS_TO_SPECIAL_CHARS]	(e.g. replace s with $)
+	[--letters_to_special_chars LETTERS_TO_SPECIAL_CHARS]
+	(e.g. replace s with $)
 
-	[--letters LETTERS]										(want some extra letters?)
+	[--letters LETTERS]
+	(want some extra letters?)
 
-	[--capital_letters CAPITAL_LETTERS]						(want some capital letters?)
+	[--capital_letters CAPITAL_LETTERS]
+	(want some capital letters?)
 
-	[--numbers NUMBERS]										(want some numbers?)
+	[--numbers NUMBERS]
+	(want some numbers?)
 
-	[--special_chars SPECIAL_CHARS]							(want special chars?)
+	[--special_chars SPECIAL_CHARS]
+	(want special chars?)
 
-	[--words WORDS]											(want words?)
+	[--words WORDS]
+	(want words?)
 
 Please note: while SystemRandom has been used to aid in random number
 generation, there is NO guarantee that this tool is cryptographically
