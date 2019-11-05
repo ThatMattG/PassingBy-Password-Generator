@@ -2,11 +2,15 @@
 A configurable password generator built on 14 May 2019 by ThatMattG.
 
 Usage: main.py
-	[--batch_size BATCH_SIZE]								(how many passwords?)
 
-	[--length LENGTH]										(how long is each?)
+	[--batch_size BATCH_SIZE]
+		(how many passwords?)
 
-	[--min_word_length MIN_WORD_LENGTH]						(shortest words)
+	[--length LENGTH]
+		(how long is each?)
+
+	[--min_word_length MIN_WORD_LENGTH]
+		(shortest words)
 
 	[--max_word_length MAX_WORD_LENGTH]						(longest words)
 
